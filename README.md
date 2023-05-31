@@ -4,6 +4,7 @@ Introduction to Xcode, Swift, Playgrounds environment, immutable and mutable var
 Playground file can be opened using Xcode 14, Swift 5 code is included below for convenience and viewing purposes
 
 # chris_firstPlayground.playground
+```swift
 import UIKit
 
 var greeting = "Hello, playground"
@@ -129,3 +130,4 @@ let favoriteSeasons: [Seasons] = [.summer, .fall]
 for season in favoriteSeasons {
     print(season.rawValue)
 }
+```
